@@ -1,0 +1,31 @@
+/***************************************************************************/
+                          /** Background Colors */
+/***************************************************************************/
+
+.green{
+    background-color: rgb(34, 50, 30) !important;
+}
+.black{
+    background-color: black !important;
+}
+.sage{
+    background-color: rgb(156, 183, 129) !important;
+}
+.sage1{
+    background-color: rgb(153, 159, 144) !important;
+}
+.white{
+    background-color: rgb(227, 236, 213) !important;
+}
+/***************************************************************************/
+                          /** Nav Bar CSS */
+/***************************************************************************/
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.855) !important;
+    width: auto !important;
+
+}
+.navButton{
+    color: white;
+}
