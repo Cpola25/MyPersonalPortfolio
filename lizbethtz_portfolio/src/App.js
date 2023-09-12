@@ -11,7 +11,7 @@ function App() {
   return (
     <Container fluid>
       <Row>
-        <NavBar />
+        {/* <NavBar /> */}
       </Row>
       <Row>
           <Routes>
