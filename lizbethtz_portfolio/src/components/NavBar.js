@@ -23,7 +23,7 @@ class NavBar extends React.Component {
                     </Button>
 
                     <Button href="/featured" className="navButton">
-                      About Me
+                      Graphic 
                     </Button>
                     <Button href="/chessCom" className="navButton">
 

@@ -1,31 +1,55 @@
 /***************************************************************************/
-                          /** Background Colors */
+/** Background Colors */
 /***************************************************************************/
 
-.green{
+.green {
     background-color: rgb(34, 50, 30) !important;
 }
-.black{
+
+.black {
     background-color: black !important;
 }
-.sage{
+
+.sage {
     background-color: rgb(156, 183, 129) !important;
 }
-.sage1{
+
+.sage1 {
     background-color: rgb(153, 159, 144) !important;
 }
-.white{
+
+.white {
     background-color: rgb(227, 236, 213) !important;
 }
-/***************************************************************************/
-                          /** Nav Bar CSS */
-/***************************************************************************/
 
-.nav {
-    background-color: rgba(0, 0, 0, 0.855) !important;
-    width: auto !important;
+/***************************************************************************/
+/** Space Modifiers */
+/***************************************************************************/
+.centerContent{
+    align-items: center; 
+    display: flex;
+    justify-content: relative; 
+    position: relative; 
 
 }
-.navButton{
-    color: white;
+
+/***************************************************************************/
+/** Buttons */
+/***************************************************************************/
+.home_button {
+    opacity: 0.8;
+    background-color: transparent !important;
+    background-size: cover !important;
+    border: none !important; 
+    position: absolute !important; 
+
+}
+
+.home_button:hover {
+    opacity: 1.3;
+    color: "white" !important; 
+
+}
+.home_icons{
+    border-radius: 50%;
 }

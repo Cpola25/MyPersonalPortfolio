@@ -7,17 +7,16 @@ import { Routes } from 'react-router-dom';
 import Home from './screens/Home';
 import { Route } from 'react-router-dom';
 import './css/style.css'; 
+import Shop from './screens/Shop';
+import RoadMap from './screens/RoadMap';
 function App() {
   return (
     <Container fluid>
       <Row>
-        {/* <NavBar /> */}
-      </Row>
-      <Row>
           <Routes>
             <Route path="/" element={<Home/>} />
-            {/* <Route path="/featured" element={<Featured/>} />
-            <Route path="/play" element={<Play/>} /> */}
+            <Route path="/shop" element={<Shop/>} />
+            <Route path="/cv" element={<RoadMap/>} />
           </Routes>
       </Row>
       <Row>
